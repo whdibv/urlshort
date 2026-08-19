@@ -1,0 +1,5 @@
+# 运行时数据（含访问记录/IP 缓存，不入库）
+short.json
+
+# 本地配置（含管理密码，不入库）
+admin_config.php
