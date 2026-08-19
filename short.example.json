@@ -1,0 +1,44 @@
+{
+    "settings": {
+        "allow_guest": true,
+        "guest_limit": 10,
+        "guest_expire_days": 7
+    },
+    "links": {
+        "blog": {
+            "url": "https://example.com/blog",
+            "created": "2026-08-19 18:00",
+            "hits": 12,
+            "by": "admin",
+            "creator_ip": "1.2.3.4",
+            "expires": null,
+            "password": "",
+            "ips": {
+                "1.2.3.4": { "n": 8, "first": 1787134495, "last": 1787134495 },
+                "240e:476::1": { "n": 4, "first": 1787134000, "last": 1787134490 }
+            }
+        },
+        "guest-link": {
+            "url": "https://example.com",
+            "created": "2026-08-19 17:30",
+            "hits": 3,
+            "by": "guest",
+            "creator_ip": "5.6.7.8",
+            "expires": 1787731200,
+            "password": "",
+            "ips": {
+                "5.6.7.8": { "n": 3, "first": 1787134000, "last": 1787134100 }
+            }
+        }
+    },
+    "guest_usage": {
+        "2026-08-19": {
+            "5.6.7.8": 2
+        }
+    },
+    "api_tokens": [],
+    "ip_cache": {
+        "1.2.3.4": "中国 广东 佛山 移动",
+        "5.6.7.8": "中国 北京 电信"
+    }
+}
